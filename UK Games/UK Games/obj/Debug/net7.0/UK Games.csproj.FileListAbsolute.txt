@@ -1,0 +1,31 @@
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\appsettings.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.staticwebassets.runtime.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.exe
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.deps.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.runtimeconfig.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\UK Games.pdb
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.csproj.AssemblyReference.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.AssemblyInfoInputs.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.AssemblyInfo.cs
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.csproj.CoreCompileInputs.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.RazorAssemblyInfo.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.RazorAssemblyInfo.cs
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets\msbuild.UK Games.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets\msbuild.build.UK Games.props
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UK Games.props
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UK Games.props
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\bundle\UK Games.styles.css
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\projectbundle\UK Games.bundle.scp.css
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\refint\UK Games.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.pdb
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.genruntimeconfig.cache
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\ref\UK Games.dll
