@@ -7,4 +7,8 @@
         <RootNamespace>UK_Games</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="Views\Shared\_LoginLayout.cshtml.css" />
+    </ItemGroup>
+
 </Project>
