@@ -1,14 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>UK_Games</RootNamespace>
     </PropertyGroup>
 
+<<<<<<< HEAD
+    <!-- <ItemGroup>
+      <Content Include="Views\Shared\_LoginLayout.cshtml.css" />
+    </ItemGroup> -->
+=======
     <ItemGroup>
       <PackageReference Include="MySqlConnector" Version="2.3.5" />
     </ItemGroup>
+>>>>>>> main
 
 </Project>

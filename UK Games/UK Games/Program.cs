@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -27,6 +28,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "login",
+    pattern: "{controller=User}/{action=Login}/{username?}/{password?}"
+);
 
 // BEGIN DATABASE INITIALIZATION
 

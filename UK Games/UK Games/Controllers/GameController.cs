@@ -14,4 +14,25 @@ public class GameController : Controller
         ViewBag.GameID = id;
         return View();
     }
+
+    public IActionResult SolitaireCollection()
+    {
+        return View();
+    }
+
+    public IActionResult PinballBreakout()
+    {
+        return View();
+    }
+
+    public IActionResult Mahjong3DConnect()
+    {
+        return View();
+    }
+
+    public IActionResult _2048Billiards()
+    {
+        return View();
+    }
+
 }

@@ -1,5 +1,11 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "98BCbjIXVBctgQnsVRQIqNFwxGL2MbhzvLaDXDoR2s3DPGgbc5lMvczhiqNzAxKq7xadc+mdeByBU9SrnzOGtQ==",
+  "success": true,
+  "projectFilePath": "/home/nathan/repos/UK-Games/UK Games/UK Games/UK Games.csproj",
+  "expectedPackageFiles": [],
+=======
   "dgSpecHash": "JyNAGTwX5FCfR1Kpmv1ZUpxLf+N+CzgcHBoR2H4C4ehatSK/oU6X9rMmvGmoYZywAR5pZ+a1p4QW/TtYR+IZ6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhuse\\Documents\\!CS498\\UK Games\\UK Games\\UK Games.csproj",
@@ -7,5 +13,6 @@
     "C:\\Users\\jhuse\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\jhuse\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512"
   ],
+>>>>>>> main
   "logs": []
 }
