@@ -35,8 +35,19 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "net6.0": {
           "targetAlias": "net6.0",
+=======
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            }
+          },
+>>>>>>> main
           "imports": [
             "net461",
             "net462",

@@ -21,7 +21,6 @@ C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebasse
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\bundle\UK Games.styles.css
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\projectbundle\UK Games.bundle.scp.css
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.dll
@@ -29,3 +28,7 @@ C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\refint\UK Gam
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.pdb
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.genruntimeconfig.cache
 C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\ref\UK Games.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\scopedcss\Views\Shared\_StandardLayout.cshtml.rz.scp.css
+C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\obj\Debug\net7.0\UK Games.csproj.CopyComplete

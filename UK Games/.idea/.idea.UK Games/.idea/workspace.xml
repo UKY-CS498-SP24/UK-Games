@@ -6,13 +6,27 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="">
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="quick updates">
+      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/Views/Shared/_StandardLayout.cshtml.rz.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,9 +42,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709062906281</updated>
       <workItem from="1709062914014" duration="385000" />
-      <workItem from="1709917569571" duration="775000" />
+      <workItem from="1709917569571" duration="2375000" />
+      <workItem from="1710861159634" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -106,7 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709063181112</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Getting started">
+      <created>1709918541628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709918541630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Most DB things finished">
+      <created>1710864902520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710864902520</updated>
+    </task>
+    <task id="LOCAL-00005" summary="quick updates">
+      <created>1710865087294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865087294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +167,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commits" />
+    <MESSAGE value="Getting started" />
+    <MESSAGE value="Most DB things finished" />
+    <MESSAGE value="quick updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick updates" />
   </component>
 </project>
