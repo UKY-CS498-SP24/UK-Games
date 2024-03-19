@@ -62,7 +62,7 @@ public class Game
 
         save.Add("Name", name);
         save.Add("ReferenceURL", refURL);
-        save.Add("Embed", refURL);
+        save.Add("Embed", embed);
 
         return save;
     }

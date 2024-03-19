@@ -6,33 +6,18 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DatabaseAggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DatabaseManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Models/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Program.cs" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Most DB things finished">
       <change beforePath="$PROJECT_DIR$/UK Games/UK Games.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/UK Games.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +36,6 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -112,7 +96,7 @@
       <updated>1709062906281</updated>
       <workItem from="1709062914014" duration="385000" />
       <workItem from="1709917569571" duration="2375000" />
-      <workItem from="1710861159634" duration="3448000" />
+      <workItem from="1710861159634" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -135,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709918541630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Most DB things finished">
+      <created>1710864902520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710864902520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +152,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commits" />
     <MESSAGE value="Getting started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting started" />
+    <MESSAGE value="Most DB things finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Most DB things finished" />
   </component>
 </project>
