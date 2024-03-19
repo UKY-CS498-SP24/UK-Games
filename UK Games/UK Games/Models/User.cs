@@ -86,7 +86,7 @@ public class User
         save.Add("DateOfBirth", DOB.ToString());
         save.Add("Email", email);
         save.Add("Password", password);
-        save.Add("PlayedGames", GeneralMethods.ParsePlayed(played));
+        //save.Add("PlayedGames", GeneralMethods.ParsePlayed(played));
 
         return save;
     }
@@ -131,7 +131,10 @@ public class User
 
     public void AddPlayed(Game game)
     {
-        played.Add(DateTime.Now, game);
+        if (game != null)
+        {
+            played.Add(DateTime.Now, game);
+        }
     }
 
     public void AddPlayed(int id)

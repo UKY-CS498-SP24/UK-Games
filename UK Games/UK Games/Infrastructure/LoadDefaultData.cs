@@ -21,7 +21,7 @@ public class LoadDefaultData
         );
 
         // Let's say users played some random games:
-        jackson.AddPlayed(goChickenGo);
+        jackson.AddPlayed(goChickenGo.ID);
         jackson.Save();
     }
 }

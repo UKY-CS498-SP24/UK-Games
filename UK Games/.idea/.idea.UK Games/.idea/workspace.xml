@@ -6,10 +6,19 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Most DB things finished">
-      <change beforePath="$PROJECT_DIR$/UK Games/UK Games.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/UK Games.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml.css" beforeDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="quick updates">
+      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/Views/Shared/_StandardLayout.cshtml.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +105,7 @@
       <updated>1709062906281</updated>
       <workItem from="1709062914014" duration="385000" />
       <workItem from="1709917569571" duration="2375000" />
-      <workItem from="1710861159634" duration="3759000" />
+      <workItem from="1710861159634" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -126,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710864902520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="quick updates">
+      <created>1710865087294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865087294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +169,7 @@
     <MESSAGE value="initial commits" />
     <MESSAGE value="Getting started" />
     <MESSAGE value="Most DB things finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Most DB things finished" />
+    <MESSAGE value="quick updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick updates" />
   </component>
 </project>
