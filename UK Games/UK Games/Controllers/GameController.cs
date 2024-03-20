@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UK_Games.Infrastructure;
 
 namespace UK_Games.Controllers;
 
@@ -11,7 +12,7 @@ public class GameController : Controller
      */
     public IActionResult Index(int id)
     {
-        ViewBag.GameID = id;
+        ViewBag.Game = GeneralMethods.GetGame(id);
         return View();
     }
 

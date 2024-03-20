@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "_StandardLayout";
+    Game game = ViewBag.Game;
+
+    if (game != null)
+    {
+        <p>Game @game.ID</p>
+    }
+    else
+    {
+        //return to homepage
+    }
+}

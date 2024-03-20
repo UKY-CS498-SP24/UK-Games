@@ -12,12 +12,12 @@ public class UserController : Controller
     //     { username: "Joe", password: "123" },
     //     { username: "Alice", password: "abc" }
     // };
-    private Dictionary<string,User> users = new Dictionary<string,User>()
-    {
-        { "Joe", new User("Joe", "123") },
-        { "Alice", new User("Alice", "abc") }
-    };
-    private User? loggedin = null;
+    // private Dictionary<string,User> users = new Dictionary<string,User>()
+    // {
+    //     { "Joe", new User("Joe", "123") },
+    //     { "Alice", new User("Alice", "abc") }
+    // };
+    // private User? loggedin = null;
 
     public UserController(ILogger<HomeController> logger)
     {
