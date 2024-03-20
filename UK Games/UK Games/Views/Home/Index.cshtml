@@ -3,7 +3,28 @@
     Layout = "_StandardLayout";
 }
 
-<div class="text-center">
+<div class="text-center main">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="SolitaireCollection">
+                <img src="~/img/solitairecollection500300.webp" />
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="_2048Billiards">
+                <img src="~/img/2048billiards500300.webp" />
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="PinballBreakout">
+                <img src="~/img/pinballbreakout500300.webp" />
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="Mahjong3DConnect">
+                <img src="~/img/mahjong3dconnect500300.webp" />
+            </a>
+        </li>
+    </ul>
 </div>
