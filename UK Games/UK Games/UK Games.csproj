@@ -7,14 +7,11 @@
         <RootNamespace>UK_Games</RootNamespace>
     </PropertyGroup>
 
-<<<<<<< HEAD
     <!-- <ItemGroup>
       <Content Include="Views\Shared\_LoginLayout.cshtml.css" />
     </ItemGroup> -->
-=======
+
     <ItemGroup>
       <PackageReference Include="MySqlConnector" Version="2.3.5" />
     </ItemGroup>
->>>>>>> main
-
 </Project>
