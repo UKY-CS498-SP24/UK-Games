@@ -6,64 +6,74 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="small updates">
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DatabaseAggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DatabaseManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Models/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/MySqlConnector.dll" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/UK Games.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/UK Games.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/ref/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/ref/UK Games.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/refint/UK Games.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/refint/UK Games.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/bundle/UK Games.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/bundle/UK Games.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/projectbundle/UK Games.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/projectbundle/UK Games.bundle.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/UK Games.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/bin/Debug/net7.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/ref/UK Games.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/refint/UK Games.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/bundle/UK Games.styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/scopedcss/projectbundle/UK Games.bundle.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets/msbuild.UK Games.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets/msbuild.build.UK Games.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.UK Games.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.UK Games.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/UK Games/Models/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Infrastructure/LoadDefaultData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2cxp67H45CZiR8VWOY8luPwuHRD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -81,6 +91,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RiderProblemsViewState">
+    <option name="contextShortcutLearned" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.UK Games: IIS Express">
     <configuration name="UK Games: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -140,6 +153,7 @@
       <workItem from="1709062914014" duration="385000" />
       <workItem from="1709917569571" duration="2375000" />
       <workItem from="1710861159634" duration="5207000" />
+      <workItem from="1710950170319" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -176,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710865087294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix broken csproj file">
+      <created>1710950069737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950069737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="attempt 2">
+      <created>1710950258146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950258146</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +232,9 @@
     <MESSAGE value="Getting started" />
     <MESSAGE value="Most DB things finished" />
     <MESSAGE value="quick updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick updates" />
+    <MESSAGE value="Finished and fixed DB issues and methods" />
+    <MESSAGE value="Fix broken csproj file" />
+    <MESSAGE value="attempt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="attempt 2" />
   </component>
 </project>
