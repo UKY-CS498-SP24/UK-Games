@@ -41,6 +41,7 @@ public class User
         DOB = dob;
         this.email = email;
         this.password = password;
+        this.played = new Dictionary<DateTime, Game>();
 
         SaveNew();
     }
@@ -86,7 +87,7 @@ public class User
         save.Add("DateOfBirth", DOB.ToString());
         save.Add("Email", email);
         save.Add("Password", password);
-        //save.Add("PlayedGames", GeneralMethods.ParsePlayed(played));
+        save.Add("PlayedGames", GeneralMethods.ParsePlayed(played));
 
         return save;
     }

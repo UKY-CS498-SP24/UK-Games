@@ -68,48 +68,78 @@ public class DatabaseAggregate
     public void RemoveGame(Game game)
     {
         int id = game.ID;
+        bool canRemove = false;
 
         foreach (var g in games)
         {
             if (g.ID == id)
             {
-                games.Remove(g);
+                canRemove = true;
             }
+        }
+
+        if (canRemove)
+        {
+            games.Remove(game);
         }
     }
 
     public void RemoveGame(int id)
     {
+        bool canRemove = false;
+        Game toRemove = null;
+
         foreach (var g in games)
         {
             if (g.ID == id)
             {
-                games.Remove(g);
+                canRemove = true;
+                toRemove = g;
             }
+        }
+
+        if (canRemove && toRemove != null)
+        {
+            games.Remove(toRemove);
         }
     }
 
     public void RemoveUser(User user)
     {
         int id = user.ID;
+        bool canRemove = false;
 
         foreach (var u in users)
         {
             if (u.ID == id)
             {
-                users.Remove(u);
+                canRemove = true;
             }
+        }
+        
+        if (canRemove)
+        {
+            users.Remove(user);
         }
     }
 
     public void RemoveUser(int id)
     {
+        bool canRemove = false;
+        User toRemove = null;
+
         foreach (var u in users)
         {
             if (u.ID == id)
             {
-                users.Remove(u);
+                canRemove = true;
+                toRemove = u;
             }
+        }
+
+        if (canRemove && toRemove != null)
+        {
+            users.Remove(toRemove);
         }
     }
 }
