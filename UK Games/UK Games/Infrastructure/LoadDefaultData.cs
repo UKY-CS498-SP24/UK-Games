@@ -7,23 +7,30 @@ public class LoadDefaultData
     public LoadDefaultData()
     {
         // Create some sample games:
-        Game goChickenGo = new Game("Go Chicken Go",
-            "<iframe seamless=\"seamless\" allowtransparency=\"true\" allowfullscreen=\"true\" frameborder=\"0\" style=\"width: 100%;height: 100%;border: 0px;\" src=\"https://zv1y2i8p.play.gamezop.com/g/rJ57aMJDcJm\"> </iframe>");
+        Game hiddenObj = new Game("Tokyo Hidden Objects",
+            "<script src=\"https://cdn.htmlgames.com/embed.js?game=TokyoHiddenObjects&amp;bgcolor=white\"></script>");
+        hiddenObj.RefURL = "https://www.htmlgames.com/html5-games-for-your-site/";
+        hiddenObj.ImagePath = "~/img/games/tokyohiddenobjects500300.webp";
+        hiddenObj.Save();
 
         Game solitaire = new Game("Solitaire Collection", "<script src=\"https://cdn.htmlgames.com/embed.js?game=SolitaireCollection&amp;bgcolor=white\"></script>");
         solitaire.RefURL = "https://www.htmlgames.com/html5-games-for-your-site/";
+        solitaire.ImagePath = "~/img/games/solitairecollection500300.webp";
         solitaire.Save();
         
         Game pinball = new Game("Pinball Breakout", "<script src=\"https://cdn.htmlgames.com/embed.js?game=PinballBreakout&amp;bgcolor=white\"></script>");
         pinball.RefURL = "https://www.htmlgames.com/html5-games-for-your-site/";
+        pinball.ImagePath = "~/img/games/pinballbreakout500300.webp";
         pinball.Save();
         
         Game mahjong = new Game("Mahjong 3D Connect", "<script src=\"https://cdn.htmlgames.com/embed.js?game=Mahjong3DConnect&amp;bgcolor=white\"></script>");
         mahjong.RefURL = "https://www.htmlgames.com/html5-games-for-your-site/";
+        mahjong.ImagePath = "~/img/games/mahjong3dconnect500300.webp";
         mahjong.Save();
         
         Game billiards = new Game("2048 Billiards", "<script src=\"https://cdn.htmlgames.com/embed.js?game=2048Billiards&amp;bgcolor=white\"></script>");
         billiards.RefURL = "https://www.htmlgames.com/html5-games-for-your-site/";
+        billiards.ImagePath = "~/img/games/2048billiards500300.webp";
         billiards.Save();
         
         // Create some sample users:
@@ -55,14 +62,14 @@ public class LoadDefaultData
         );
 
         // Let's say users played some random games:
-        jackson.AddPlayed(goChickenGo.ID);
+        jackson.AddPlayed(hiddenObj.ID);
         jackson.AddPlayed(solitaire.ID);
         jackson.AddPlayed(pinball.ID);
         jackson.AddPlayed(mahjong.ID);
         jackson.AddPlayed(billiards.ID);
         jackson.Save();
 
-        nathan.AddPlayed(goChickenGo.ID);
+        nathan.AddPlayed(hiddenObj.ID);
         nathan.AddPlayed(solitaire.ID);
         nathan.AddPlayed(pinball.ID);
         nathan.Save();

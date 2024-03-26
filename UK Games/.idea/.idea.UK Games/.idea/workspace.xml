@@ -6,23 +6,17 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Added standard theme">
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon.ico" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Reworked Games to use the objects, not static HTML code">
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/tokyohiddenobjects300200.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/AccountController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/UK Games.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/UK Games.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Login.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Logout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Game/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/Mahjong3DConnect.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/PinballBreakout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/SolitaireCollection.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/_2048Billiards.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Models/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/2048billiards500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/2048billiards500300.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/mahjong3dconnect500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/mahjong3dconnect500300.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/pinballbreakout500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/pinballbreakout500300.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/solitairecollection500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/solitairecollection500300.webp" afterDir="false" />
     </list>
     <list id="80a3fc81-c092-418f-b865-ff00fe26928c" name="Theme" comment="">
       <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0.zip" afterDir="false" />
@@ -321,7 +315,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/UK Games/Models/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UK Games/Models/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -414,7 +408,7 @@
       <workItem from="1710861159634" duration="5207000" />
       <workItem from="1710950170319" duration="444000" />
       <workItem from="1710950642424" duration="575000" />
-      <workItem from="1711415478467" duration="4693000" />
+      <workItem from="1711415478467" duration="5760000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711418393198</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reworked Games to use the objects, not static HTML code">
+      <created>1711420659140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711420659140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +513,7 @@
     <MESSAGE value="attempt 2" />
     <MESSAGE value="remove incorrectly generated bin and obj folders" />
     <MESSAGE value="Added standard theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added standard theme" />
+    <MESSAGE value="Reworked Games to use the objects, not static HTML code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked Games to use the objects, not static HTML code" />
   </component>
 </project>

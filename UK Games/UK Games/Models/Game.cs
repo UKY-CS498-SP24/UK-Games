@@ -10,13 +10,15 @@ public class Game
     private string name;
     private string refURL;
     private string embed;
+    private string imagePath;
 
-    public Game(int id, string name, string refURL, string embed)
+    public Game(int id, string name, string refURL, string embed, string imagePath)
     {
         this.id = id;
         this.name = name;
         this.refURL = refURL;
         this.embed = embed;
+        this.imagePath = imagePath;
     }
 
     public Game(string name, string embed)
@@ -25,6 +27,7 @@ public class Game
         this.name = name;
         refURL = "";
         this.embed = embed;
+        imagePath = "";
 
         SaveNew();
     }
@@ -37,6 +40,7 @@ public class Game
         fields.Add("Name", "TEXT");
         fields.Add("ReferenceURL", "TEXT");
         fields.Add("Embed", "TEXT");
+        fields.Add("ImagePath", "TEXT");
 
         DataUtil.DB.SmartCreate(tableName, fields);
     }
@@ -63,6 +67,7 @@ public class Game
         save.Add("Name", name);
         save.Add("ReferenceURL", refURL);
         save.Add("Embed", embed);
+        save.Add("ImagePath", imagePath);
 
         return save;
     }
@@ -87,5 +92,11 @@ public class Game
     {
         get => embed;
         set => embed = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
+    public string ImagePath
+    {
+        get => imagePath;
+        set => imagePath = value ?? throw new ArgumentNullException(nameof(value));
     }
 }

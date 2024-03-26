@@ -6,39 +6,19 @@
 
 <div class="text-center main">
     <h1 class="display-4">Welcome</h1>
-    <ul class="navbar-nav flex-grow-1">
+    <div class="row">
         @{
             foreach (Game game in DataUtil.Data.GetGames())
             {
                 if (game != null)
                 {
-                    <li class="nav-item">
+                    <div class="col-3">
                         <a class="nav-link text-dark" href="@Url.Action("Index", "Game", new {id = game.ID})">
-                            <p>@game.Name</p>
+                            <img src="@game.ImagePath.Replace("~/", "")" width="100%" height="auto"/>
                         </a>
-                    </li>
+                    </div>
                 }
             }
         }
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="SolitaireCollection">
-                <img src="~/img/solitairecollection500300.webp"/>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="_2048Billiards">
-                <img src="~/img/2048billiards500300.webp"/>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="PinballBreakout">
-                <img src="~/img/pinballbreakout500300.webp"/>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Game" asp-action="Mahjong3DConnect">
-                <img src="~/img/mahjong3dconnect500300.webp"/>
-            </a>
-        </li>
-    </ul>
+    </div>
 </div>
