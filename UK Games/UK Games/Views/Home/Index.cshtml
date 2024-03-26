@@ -7,18 +7,26 @@
 <div class="text-center main">
     <h1 class="display-4">Welcome</h1>
     <div class="row">
-        @{
-            foreach (Game game in DataUtil.Data.GetGames())
-            {
-                if (game != null)
-                {
-                    <div class="col-3">
-                        <a class="nav-link text-dark" href="@Url.Action("Index", "Game", new {id = game.ID})">
-                            <img src="@game.ImagePath.Replace("~/", "")" width="100%" height="auto"/>
-                        </a>
-                    </div>
+        <div class="col-10">
+            <div class="row">
+                <h4 style="text-align:center;">Games</h4>
+                @{
+                    foreach (Game game in DataUtil.Data.GetGames())
+                    {
+                        if (game != null)
+                        {
+                            <div class="col-3">
+                                <a class="nav-link text-dark" href="@Url.Action("Index", "Game", new {id = game.ID})">
+                                    <img src="@game.ImagePath.Replace("~/", "")" width="100%" height="auto"/>
+                                </a>
+                            </div>
+                        }
+                    }
                 }
-            }
-        }
+            </div>
+        </div>
+        <div class="col-2">
+            sidebar thing
+        </div>
     </div>
 </div>
