@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "_LoginLayout";
+    ViewData["Title"] = "Logout";
+}
+
+<div class="row mt-5">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <div class="card border-primary mb-3">
+            <div class="card-body" style="padding: 0 !important;">
+                <div class="row">
+                    <h1>Logout</h1>
+                    
+                    <p>You have successfully logged out of the application.</p>
+                    
+                    <div class="col-4">
+                        <a class="btn btn-secondary" role="button" href="@Url.Action("Login")" style="margin-bottom: 1em; color: white !important;">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>

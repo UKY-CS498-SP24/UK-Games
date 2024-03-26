@@ -64,6 +64,13 @@ public class DataUtil
         reader = db.GetAll(User.TableName, "*");
         while (reader.Read())
         {
+            Dictionary<DateTime, Game> played = new Dictionary<DateTime, Game>();
+            
+            if (reader.GetValue(7) != DBNull.Value)
+            {
+                played = GeneralMethods.ParsePlayed(reader.GetString(7));
+            }
+            
             data.AddUser(
                 new User(
                     reader.GetInt32(0),
@@ -73,7 +80,7 @@ public class DataUtil
                     DateTime.Parse(reader.GetString(4)),
                     reader.GetString(5),
                     reader.GetString(6),
-                    GeneralMethods.ParsePlayed(reader.GetString(7))
+                    played
                 ));
         }
         reader.Close();
