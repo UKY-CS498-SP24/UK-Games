@@ -135,6 +135,7 @@ public class User
         if (game != null)
         {
             played.Add(DateTime.Now, game);
+            Thread.Sleep(2);
         }
     }
 
@@ -145,6 +146,7 @@ public class User
         if (game != null)
         {
             played.Add(DateTime.Now,game);
+            Thread.Sleep(2);
         }
     }
 }

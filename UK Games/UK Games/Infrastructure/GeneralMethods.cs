@@ -1,4 +1,5 @@
-﻿using UK_Games.Models;
+﻿using System.Globalization;
+using UK_Games.Models;
 
 namespace UK_Games.Infrastructure;
 
@@ -10,7 +11,8 @@ public class GeneralMethods
         
         foreach(KeyValuePair<DateTime, Game> p in played)
         {
-            data.Add(p.Key.ToString(), p.Value.ID.ToString());
+            string timestamp = string.Format("{0:MM/dd/yyyy HH:mm:ss.fff}", p.Key);
+            data.Add(timestamp, p.Value.ID.ToString());
         }
 
         return StringFromMetaData(data);
@@ -22,7 +24,7 @@ public class GeneralMethods
 
         foreach (KeyValuePair<string, string> data in MetaDataFromString(p))
         {
-            played.Add(DateTime.Parse(data.Key), GetGame(Int32.Parse(data.Value)));
+            played.Add(DateTime.ParseExact(data.Key, "MM/dd/yyyy HH:mm:ss.fff", CultureInfo.CurrentCulture), GetGame(Int32.Parse(data.Value)));
         }
         
         return played;

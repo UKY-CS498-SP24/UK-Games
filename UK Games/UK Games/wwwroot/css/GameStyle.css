@@ -1,5 +1,6 @@
 .game {
     display: flex; 
     justify-content: center; 
-    padding-top: 10rem
+    padding-top: 2em;
+    padding-bottom: 2em;
 }

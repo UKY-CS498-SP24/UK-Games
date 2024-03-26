@@ -6,31 +6,23 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_Favicons.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/_bootswatch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-dist/bootstrap.min.css" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Added standard theme">
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_StandardLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_StandardLayout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/AccountController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/UK Games.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/UK Games.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Login.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Account/Logout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Game/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/Mahjong3DConnect.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/PinballBreakout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/SolitaireCollection.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Game/_2048Billiards.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <list id="80a3fc81-c092-418f-b865-ff00fe26928c" name="Theme" comment="">
       <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0.zip" afterDir="false" />
@@ -330,10 +322,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/UK Games/Models/Game.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -422,7 +414,7 @@
       <workItem from="1710861159634" duration="5207000" />
       <workItem from="1710950170319" duration="444000" />
       <workItem from="1710950642424" duration="575000" />
-      <workItem from="1711415478467" duration="2453000" />
+      <workItem from="1711415478467" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710950730538</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added standard theme">
+      <created>1711418393198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711418393198</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +511,7 @@
     <MESSAGE value="Fix broken csproj file" />
     <MESSAGE value="attempt 2" />
     <MESSAGE value="remove incorrectly generated bin and obj folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove incorrectly generated bin and obj folders" />
+    <MESSAGE value="Added standard theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added standard theme" />
   </component>
 </project>

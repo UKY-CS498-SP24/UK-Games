@@ -1,13 +1,22 @@
 ﻿@{
     Layout = "_StandardLayout";
     Game game = ViewBag.Game;
-
+    ViewData["Title"] = game.Name;
+    
     if (game != null)
     {
-        <p>Game @game.ID</p>
+        <h1 style="text-align: center">@game.Name</h1>
+        <div class="game">
+            @Html.Raw(game.Embed)
+        </div>
+
+        if (game.RefURL != "" || game.RefURL != null)
+        {
+            <p style="text-align: center"><small>Game from: <a href="@game.RefURL">@game.RefURL</a></small></p>
+        }
     }
     else
     {
-        //return to homepage
+        Context.Response.Redirect(Url.Action("Index", "Home"));
     }
 }
