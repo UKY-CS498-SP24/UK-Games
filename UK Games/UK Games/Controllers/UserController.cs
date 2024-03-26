@@ -37,7 +37,17 @@ public class UserController : Controller
         {
             string first = fc["FirstName"];
             string last = fc["LastName"];
-            DateTime dob = DateTime.Parse(fc["DOB"]);
+            
+            DateTime dob;
+            try
+            {
+                dob = DateTime.Parse(fc["DOB"]);
+            }
+            catch (FormatException f)
+            {
+                ModelState.AddModelError("", "Date of birth format error."); return View();
+            }
+
             string username = fc["Username"];
             string email = fc["Email"];
             string password = fc["Password"];
