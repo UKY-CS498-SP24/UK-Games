@@ -6,17 +6,11 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Reworked Games to use the objects, not static HTML code">
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/tokyohiddenobjects300200.webp" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Finished game object wrapping">
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/backgrounds/login.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/DataUtil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Models/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Models/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/2048billiards500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/2048billiards500300.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/mahjong3dconnect500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/mahjong3dconnect500300.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/pinballbreakout500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/pinballbreakout500300.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/img/solitairecollection500300.webp" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/games/solitairecollection500300.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/User/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/User/Login.cshtml" afterDir="false" />
     </list>
     <list id="80a3fc81-c092-418f-b865-ff00fe26928c" name="Theme" comment="">
       <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0.zip" afterDir="false" />
@@ -319,6 +313,7 @@
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/LoadDefaultData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Infrastructure/DataUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -408,7 +403,7 @@
       <workItem from="1710861159634" duration="5207000" />
       <workItem from="1710950170319" duration="444000" />
       <workItem from="1710950642424" duration="575000" />
-      <workItem from="1711415478467" duration="5760000" />
+      <workItem from="1711415478467" duration="6712000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -480,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711420659140</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished game object wrapping">
+      <created>1711421611702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711421611702</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,6 +516,7 @@
     <MESSAGE value="remove incorrectly generated bin and obj folders" />
     <MESSAGE value="Added standard theme" />
     <MESSAGE value="Reworked Games to use the objects, not static HTML code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked Games to use the objects, not static HTML code" />
+    <MESSAGE value="Finished game object wrapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished game object wrapping" />
   </component>
 </project>
