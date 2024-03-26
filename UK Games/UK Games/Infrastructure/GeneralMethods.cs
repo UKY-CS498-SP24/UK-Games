@@ -102,4 +102,93 @@ public class GeneralMethods
 
         return null;
     }
+
+    public static User GetUser(string username)
+    {
+        foreach (var u in DataUtil.Data.GetUsers())
+        {
+            if (u.Username == username)
+            {
+                return u;
+            }
+        }
+
+        return null;
+    }
+    
+    public static void HandleException(Exception e)
+    {
+        Console.WriteLine("\n\nError Occured...");
+        Console.WriteLine(e.StackTrace);
+    }
+
+    public static Dictionary<bool, string> isLoggedIn(ISession session)
+    {
+        Dictionary<bool, string> status = new Dictionary<bool, string>();
+
+        string loggedIn = (session.GetString("loggedIn"));
+
+        if (loggedIn == "true")
+        {
+            Console.WriteLine("[ LOGIN ATTEMPT ] User Already Logged In: " +
+                              session.GetString("loggedInUser"));
+            status.Add(true, session.GetString("loggedInUser"));
+        }
+        else
+        {
+            status.Add(false, null);
+        }
+
+        return status;
+    }
+
+    public static Dictionary<bool, User> ConfirmUser(string username, string password, ISession session)
+    {
+        Dictionary<bool, User> status = new Dictionary<bool, User>();
+
+        foreach (User user in DataUtil.Data.GetUsers())
+        {
+            if (user != null)
+            {
+                if (username.ToUpper() == user.Username.ToUpper())
+                {
+                    username = user.Username;
+
+                    Console.WriteLine("[ LOGIN ATTEMPT ] Matches user: " + username);
+
+                    if (password != user.Password)
+                    {
+                        Console.WriteLine("[ LOGIN FAIL ] Incorrect password for: " + username);
+                        status.Add(false, null);
+                    }
+                    else
+                    {
+                        Console.WriteLine("[ LOGIN SUCCESS ] Logged in: " + username);
+                        session.SetString("loggedIn", "true");
+                        session.SetString("loggedInUser", username);
+                        status.Add(true, user);
+                    }
+                }
+            }
+        }
+
+        if (status.Count == 0)
+        {
+            Console.WriteLine("[ LOGIN FAIL ] Unknown user " + username + "... does this user exist?");
+        }
+        
+        return status;
+    }
+
+    public static User GetLoggedInUser(ISession session)
+    {
+        string username = session.GetString("loggedInUser");
+
+        if (username != null)
+        {
+            return GetUser(username);
+        }
+
+        return null;
+    }
 }

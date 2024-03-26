@@ -1,0 +1,82 @@
+@{
+    Layout = "_LoginLayout";
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    .row {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .col-lg-6, .col-lg-4 {
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+</style>
+
+<div class="row mt-5">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <div class="card border-primary mb-3">
+            <div class="card-body" style="padding: 1em;">
+                <div class="text-center">
+                    <a href="@Url.Action("Index", "Home")">
+                        <img src="~/img/logos/UK Games full.png" width="80%" class="img-fluid"/>
+                    </a>
+                </div>
+                <h4 class="card-title" style="text-align:center;">Register for an Account!</h4>
+                @using (Html.BeginForm("Register", "User", FormMethod.Post, new {role = "form"}))
+                {
+                    @Html.ValidationSummary(true, "There is at least one error with your submission!", new {@class = "text-danger"})
+
+                    <div class="row">
+                        <div class="form-group col-lg-4">
+                            <label class="form-label" for="FirstName">First Name*</label>
+                            <input type="text" class="form-control" placeholder="First Name" id="FirstName" name="FirstName" required>
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label class="form-label" for="LastName">Last Name*</label>
+                            <input type="text" class="form-control" placeholder="Last Name" id="LastName" name="LastName" required>
+                        </div>
+
+                        <div class="form-group col-lg-4">
+                            <label class="form-label" for="DOB">Birthday*</label>
+                            <input type="text" class="form-control datepicker" placeholder="DD-MM-YYYY" id="DOB" name="DOB" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-lg-6">
+                            <label class="form-label" for="Username">Username*</label>
+                            <input type="text" class="form-control" placeholder="videog4mer" id="Username" name="Username" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label class="form-label" for="Email">Email*</label>
+                            <input type="email" class="form-control" placeholder="info@example.com" id="Email" name="Email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group col-lg-6">
+                            <label class="form-label" for="Password">Password*</label>
+                            <input type="password" class="form-control" placeholder="*********" id="Password" name="Password" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label class="form-label" for="Password">Confirm Password*</label>
+                            <input type="password" class="form-control" placeholder="*********" id="ConfirmPassword" name="ConfirmPassword" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group col-lg-12">
+                            <input type="submit" class="btn btn-secondary" style="float: right; color: white !important;" value="Register" />
+                            <a href="@Url.Action("Login")" class="btn btn-primary" style="float: right; padding-right: 1em;">Log into an Existing Account</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
