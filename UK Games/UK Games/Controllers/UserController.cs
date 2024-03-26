@@ -19,11 +19,6 @@ public class UserController : Controller
         return View();
     }
 
-    public IActionResult Profile()
-    {
-        return View();
-    }
-
     public IActionResult ForgotPassword()
     {
         return View();
@@ -96,6 +91,8 @@ public class UserController : Controller
 
     public IActionResult Logout()
     {
+        HttpContext.Session.Clear();
+
         return View();
     }
 

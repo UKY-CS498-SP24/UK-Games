@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using UK_Games.Infrastructure
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -13,27 +14,48 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3" >
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")" style="padding-left: 1em;">
                 <img src="~/img/logos/UK Games full.png" style="height:2.5em"/>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ukgamesNav" aria-controls="ukgamesNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
+            <div class="collapse navbar-collapse" id="ukgamesNav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link text-light" href="@Url.Action("Index", "Home")">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Profile">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Login">Login</a>
-                    </li>
+                    @{
+                        if (Context.Session.GetString("loggedIn") == "true")
+                        {
+                            User user = GeneralMethods.GetLoggedInUser(Context.Session);
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hi @user.Username!</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="@Url.Action("Index", "User")">View Profile</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="@Url.Action("Logout", "User")">Logout</a>
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Howdy!</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="@Url.Action("Login", "User")">Login</a>
+                                </div>
+                            </li>
+                        }
+                    }
                 </ul>
+                
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
