@@ -3,26 +3,69 @@
     ViewData["Title"] = "Login";
 }
 
+<style>
+    .bg-login-image {
+        background-image: url("../img/backgrounds/login.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    .login-form {
+        padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x) var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    }
+</style>
+
 <div class="row mt-5">
-    <div class="col-2">
-        
-    </div>
+    <div class="col-2"></div>
     <div class="col-8">
         <div class="card border-primary mb-3">
             <div class="card-body" style="padding: 0 !important;">
                 <div class="row">
-                    <div class="col-6 d-flex align-items-center justify-content-center">
-                        <img src="~/img/backgrounds/login.jpeg" class="img-fluid" alt="Login Image"/>
-                    </div>
-                    <div class="col-6" style="padding-top: var(--bs-card-cap-padding-y) !important; padding-bottom: var(--bs-card-cap-padding-y) !important; padding-left: 0;">
-                        <h4 class="card-title">Dark card title</h4>
+                    <div class="col-6 bg-login-image"></div>
+                    <div class="col-6 login-form">
+                        <div class="text-center">
+                            <a href="@Url.Action("Index", "Home")">
+                                <img src="~/img/logos/UK Games full.png" width="80%" class="img-fluid"/>
+                            </a>
+                        </div>
+                        <h4 class="card-title" style="text-align:center;">Login</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        @using (Html.BeginForm("Login", "User", FormMethod.Post, new {role = "form"}))
+                        {
+                            @Html.ValidationSummary(true, "There is at least one error with your submission!", new {@class = "text-danger"})
+                            <div class="form-group mt-3">
+                                <label for="email" class="form-control-label">Email</label>
+                                <input class="form-control" type="email" placeholder="info@example.com" id="email" name="email" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="password" class="form-control-label">Password</label>
+                                <input class="form-control" type="password" placeholder="password" id="password" name="password" required>
+                            </div>
+                            <div class="custom-control custom-checkbox mt-3">
+                                <input type="checkbox" class="custom-control-input" id="rememberMe">
+                                <label class="custom-control-label" for="rememberMe">Remember Me?</label>
+                            </div>
+                            <br/>
+                            <div class="form-group">
+                                <input type="submit" value="Log in" class="btn btn-primary" style="width: 100%;"/>
+                            </div>
+                            <div class="form-group mt-2">
+                                <div class="row">
+                                    <div class="col-6" style="text-align:center;">
+                                        <a style="text-decoration: none;" href="@Url.Action("ForgotPassword")">Forgot Password</a><br/>
+                                    </div>
+                                    <div class="col-6" style="text-align:center;">
+                                        <a style="text-decoration: none;" href="@Url.Action("Index", "Home")">Click to go back!</a>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <p style="text-align: center;">&copy; @DateTime.Now.Year.ToString() - UK Games</p>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-2">
-        
-    </div>
+    <div class="col-2"></div>
 </div>

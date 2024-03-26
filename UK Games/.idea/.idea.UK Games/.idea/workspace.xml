@@ -6,11 +6,13 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="Finished game object wrapping">
-      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/backgrounds/login.jpeg" afterDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="initial login page">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/Views/User/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/User/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.min.css" afterDir="false" />
     </list>
     <list id="80a3fc81-c092-418f-b865-ff00fe26928c" name="Theme" comment="">
       <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0.zip" afterDir="false" />
@@ -306,6 +308,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -314,6 +321,7 @@
     <setting file="file://$PROJECT_DIR$/UK Games/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Infrastructure/DataUtil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jhuse/Documents/!CS498/UK Games/UK Games/Views/Shared/_LoginLayout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UK Games/Infrastructure/GeneralMethods.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -403,7 +411,7 @@
       <workItem from="1710861159634" duration="5207000" />
       <workItem from="1710950170319" duration="444000" />
       <workItem from="1710950642424" duration="575000" />
-      <workItem from="1711415478467" duration="6712000" />
+      <workItem from="1711415478467" duration="9401000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
@@ -482,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711421611702</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="initial login page">
+      <created>1711422552676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711422552676</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,6 +532,7 @@
     <MESSAGE value="Added standard theme" />
     <MESSAGE value="Reworked Games to use the objects, not static HTML code" />
     <MESSAGE value="Finished game object wrapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished game object wrapping" />
+    <MESSAGE value="initial login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial login page" />
   </component>
 </project>

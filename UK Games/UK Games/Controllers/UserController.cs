@@ -34,7 +34,19 @@ public class UserController : Controller
         return View();
     }
 
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+
+    [HttpGet]
     public IActionResult Login()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Login(IFormCollection fc)
     {
         return View();
     }
