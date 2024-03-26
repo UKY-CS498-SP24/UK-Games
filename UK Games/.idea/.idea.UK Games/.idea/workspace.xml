@@ -6,16 +6,311 @@
     <projectFile profileName="IIS Express">UK Games/UK Games.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="remove incorrectly generated bin and obj folders">
-      <change afterPath="$PROJECT_DIR$/UK Games/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Views/Account/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Views/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Views/Account/Logout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UK Games/Views/Game/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Controllers/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UK Games/Models/UserModel.cs" beforeDir="false" />
+    <list default="true" id="dc3385f3-755e-459b-87cd-a9f76e477079" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_Favicons.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/_bootswatch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UK Games/wwwroot/img/logos/UK Games square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-dist/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UK Games/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/Views/Shared/_StandardLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/Views/Shared/_StandardLayout.cshtml" afterDir="false" />
+    </list>
+    <list id="80a3fc81-c092-418f-b865-ff00fe26928c" name="Theme" comment="">
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/AspnetCoreMvcFull.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/AspnetCoreMvcFull.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/CardsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/DashboardsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/ExtendedUiController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/FormLayoutsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/FormsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/IconsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/LayoutExamplesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/PagesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/TablesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Controllers/UiController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Auth/ForgotPasswordBasic.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Auth/LoginBasic.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Auth/RegisterBasic.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Cards/Basic.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Dashboards/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/ExtendedUi/PerfectScrollbar.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/ExtendedUi/TextDivider.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/FormLayouts/Horizontal.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/FormLayouts/Vertical.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Forms/BasicInputs.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Forms/InputGroups.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Icons/Boxicons.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/LayoutExamples/Blank.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/LayoutExamples/Container.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/LayoutExamples/Fluid.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/LayoutExamples/WithoutMenu.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/LayoutExamples/WithoutNavbar.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Pages/AccountSettings.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Pages/AccountSettingsConnections.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Pages/AccountSettingsNotifications.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Pages/MiscError.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Pages/MiscUnderMaintenance.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/Footer/_Footer.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/Menu/_VerticalMenu.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/Navbar/_Navbar.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/Navbar/_NavbarPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/_Scripts.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/_ScriptsIncludes.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/_Styles.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/Sections/_Variables.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/_BlankLayout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/_CommonMasterLayout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/_ContentNavbarLayout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Tables/Basic.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Accordion.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Alerts.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Badges.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Buttons.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Carousel.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Collapse.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Dropdowns.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Footer.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/ListGroups.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Modals.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Navbar.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Offcanvas.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/PaginationBreadcrumbs.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Progress.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Spinners.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/TabsPills.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Toasts.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/TooltipsPopovers.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/Ui/Typography.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/_Partials/_Macros.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/hire-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/fonts/boxicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/js/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/apex-charts/apex-charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/apex-charts/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/highlight/highlight-github.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/highlight/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/highlight/highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/masonry/masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/perfect-scrollbar/perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/libs/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_include.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_utilities-ltr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap-extended/mixins/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_app-brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_include.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_text-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_app-brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_components/mixins/_text-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_custom-variables/_bootstrap-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_custom-variables/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_custom-variables/_libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_custom-variables/_pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_custom-variables/_support.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_theme/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/_theme/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/pages/page-account-settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/pages/page-auth.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/pages/page-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/pages/page-misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/scss/theme-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/src/site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/avatars/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/avatars/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/avatars/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/avatars/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/backgrounds/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/elements/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/asana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/mailchimp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/slack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/brands/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/cc-primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/cc-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/cc-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/chart-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/wallet-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/icons/unicons/wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/illustrations/girl-doing-yoga-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/illustrations/man-with-laptop-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/illustrations/page-misc-error-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/layouts/layout-container-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/layouts/layout-fluid-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/layouts/layout-without-menu-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/img/layouts/layout-without-navbar-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/dashboards-analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/extended-ui-perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/form-basic-inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/pages-account-settings-account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/ui-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/ui-popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/ui-toasts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/pages/page-account-settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/pages/page-auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/pages/page-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/pages/page-misc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/css/theme-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/fonts/boxicons/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/js/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/apex-charts/apex-charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/apex-charts/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/highlight/highlight-github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/highlight/highlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/highlight/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/masonry/masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/vendor/libs/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/Debug/net7.0/UK Games.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/UK Games.csproj.nuget.dgspec.json" afterDir="false" />
@@ -23,6 +318,7 @@
       <change beforePath="$PROJECT_DIR$/UK Games/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UK Games/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UK Games/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-v1.0.0/sneat-bootstrap-html-aspnet-core-mvc-admin-template-free/wwwroot/js/site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +356,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RiderProblemsViewState">
@@ -125,6 +422,7 @@
       <workItem from="1710861159634" duration="5207000" />
       <workItem from="1710950170319" duration="444000" />
       <workItem from="1710950642424" duration="575000" />
+      <workItem from="1711415478467" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1709063019291</created>
