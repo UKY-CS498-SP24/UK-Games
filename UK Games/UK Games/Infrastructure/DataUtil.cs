@@ -45,6 +45,9 @@ public class DataUtil
         
         MySqlDataReader reader;
 
+        if (!db.connected)
+            throw new Exception("Database not connected");
+            
         //  1. Game - Base Data Types
        reader = db.GetAll(Game.TableName, "*");
        while (reader.Read())

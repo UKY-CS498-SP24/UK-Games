@@ -52,9 +52,10 @@
                     }
                 </ul>
                 
-                <form class="d-flex">
-                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                <form class="d-flex" method="post" action="Game/Search">
+                    <input class="form-control me-sm-2" type="text" id="pattern" name="pattern" placeholder="Search"/>
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    <asp:TextBox ID="box" type="text" runat="server"></asp:TextBox>
                 </form>
             </div>
         </div>
@@ -66,11 +67,6 @@
     </main>
 </div>
 
-@* <footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2024 - UK_Games - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
-</footer> *@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>

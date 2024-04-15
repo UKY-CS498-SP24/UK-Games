@@ -126,7 +126,7 @@ public class GeneralMethods
     {
         Dictionary<bool, string> status = new Dictionary<bool, string>();
 
-        string loggedIn = (session.GetString("loggedIn"));
+        string? loggedIn = session.GetString("loggedIn");
 
         if (loggedIn == "true")
         {
@@ -182,7 +182,7 @@ public class GeneralMethods
 
     public static User GetLoggedInUser(ISession session)
     {
-        string username = session.GetString("loggedInUser");
+        string? username = session.GetString("loggedInUser");
 
         if (username != null)
         {

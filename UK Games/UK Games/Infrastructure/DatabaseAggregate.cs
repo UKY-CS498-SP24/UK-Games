@@ -5,7 +5,9 @@ namespace UK_Games.Infrastructure;
 public class DatabaseAggregate
 {
     private List<Game> games;
+    public List<Game> Games { get => games; }
     private List<User> users;
+    public List<User> Users { get => users; }
 
     public DatabaseAggregate()
     {
