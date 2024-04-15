@@ -54,7 +54,7 @@ catch (Exception e)
 DataUtil.PullDataFromDB();
 
 // 4. Load Default Data (if no users)
-if (DataUtil.Data.GetUsers().Count == 0)
+if (DataUtil.Data.Users.Count == 0)
 {
     new LoadDefaultData();
 }

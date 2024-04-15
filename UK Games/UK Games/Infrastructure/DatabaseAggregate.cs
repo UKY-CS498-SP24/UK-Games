@@ -5,9 +5,9 @@ namespace UK_Games.Infrastructure;
 public class DatabaseAggregate
 {
     private List<Game> games;
-    public List<Game> Games { get => games; }
+    public List<Game> Games => games;
     private List<User> users;
-    public List<User> Users { get => users; }
+    public List<User> Users => users;
 
     public DatabaseAggregate()
     {
@@ -17,131 +17,69 @@ public class DatabaseAggregate
 
     public void WipeCache()
     {
-        games = new List<Game>();
-        users = new List<User>();
+        games.Clear();
+        users.Clear();
     }
 
-    public List<Game> GetGames()
-    {
-        return games;
-    }
-
-    public List<User> GetUsers()
-    {
-        return users;
-    }
 
     public void AddGame(Game game)
     {
-        bool exists = false;
         foreach (var g in games)
         {
             if (g.ID == game.ID)
-            {
-                exists = true;
-                break;
-            }
+                return;
         }
-
-        if (!exists)
-        {
-            games.Add(game);
-        }
+        games.Add(game);
     }
 
     public void AddUser(User user)
     {
-        bool exists = false;
         foreach (var u in users)
         {
             if (u.ID == user.ID)
-            {
-                exists = true;
-                break;
-            }
+                return;
         }
-
-        if (!exists)
-        {
-            users.Add(user);
-        }
+        users.Add(user);
     }
 
     public void RemoveGame(Game game)
     {
-        int id = game.ID;
-        bool canRemove = false;
-
-        foreach (var g in games)
-        {
-            if (g.ID == id)
-            {
-                canRemove = true;
-            }
-        }
-
-        if (canRemove)
-        {
-            games.Remove(game);
-        }
+        games.Remove(game);
     }
 
     public void RemoveGame(int id)
     {
-        bool canRemove = false;
-        Game toRemove = null;
-
         foreach (var g in games)
         {
             if (g.ID == id)
             {
-                canRemove = true;
-                toRemove = g;
+                games.Remove(g);
+                return;
             }
-        }
-
-        if (canRemove && toRemove != null)
-        {
-            games.Remove(toRemove);
         }
     }
 
     public void RemoveUser(User user)
     {
-        int id = user.ID;
-        bool canRemove = false;
-
         foreach (var u in users)
         {
-            if (u.ID == id)
+            if (u.ID == user.ID)
             {
-                canRemove = true;
+                users.Remove(user);
+                return;
             }
-        }
-        
-        if (canRemove)
-        {
-            users.Remove(user);
         }
     }
 
     public void RemoveUser(int id)
     {
-        bool canRemove = false;
-        User toRemove = null;
-
         foreach (var u in users)
         {
             if (u.ID == id)
             {
-                canRemove = true;
-                toRemove = u;
+                users.Remove(u);
+                return;
             }
-        }
-
-        if (canRemove && toRemove != null)
-        {
-            users.Remove(toRemove);
         }
     }
 }

@@ -35,27 +35,30 @@ public class UserController : Controller
     {
         try
         {
-            string first = fc["FirstName"];
-            string last = fc["LastName"];
+            string? first = fc["FirstName"];
+            string? last = fc["LastName"];
             
             DateTime dob;
             try
             {
-                dob = DateTime.Parse(fc["DOB"]);
-            }
-            catch (FormatException f)
+                dob = DateTime.Parse(fc["DOB"].ToString());
+            } catch (FormatException)
             {
-                ModelState.AddModelError("", "Date of birth format error."); return View();
+                ModelState.AddModelError("", "Date of birth format error."); 
+                return View();
+            } catch (ArgumentNullException) 
+            {
+                ModelState.AddModelError("", "Date of birth null error.");
+                return View();
             }
 
-            string username = fc["Username"];
-            string email = fc["Email"];
-            string password = fc["Password"];
-            string confirmPassword = fc["ConfirmPassword"];
+            string? username = fc["Username"];
+            string? email = fc["Email"];
+            string? password = fc["Password"];
+            string? confirmPassword = fc["ConfirmPassword"];
 
             if (first == null ||
                 last == null ||
-                dob == null ||
                 username == null ||
                 email == null ||
                 password == null ||
@@ -71,7 +74,7 @@ public class UserController : Controller
                 return View();
             }
 
-            foreach (User u in DataUtil.Data.GetUsers())
+            foreach (User u in DataUtil.Data.Users)
             {
                 if (u.Username.ToUpper() == username.ToUpper())
                 {
@@ -117,8 +120,8 @@ public class UserController : Controller
     {
         try
         {
-            string username = fc["Username"];
-            string password = fc["Password"];
+            string? username = fc["Username"];
+            string? password = fc["Password"];
             
             if (username == null || password == null) // didn't fill out a field, shouldn't happen
             {

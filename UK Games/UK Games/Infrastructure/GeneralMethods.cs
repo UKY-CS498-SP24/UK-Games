@@ -18,15 +18,15 @@ public class GeneralMethods
         return StringFromMetaData(data);
     }
     
-    public static Dictionary<DateTime, Game> ParsePlayed(String p)
+    public static Dictionary<DateTime, Game?> ParsePlayed(String p)
     {
-        Dictionary<DateTime, Game> played = new Dictionary<DateTime, Game>();
+        Dictionary<DateTime, Game?> played = new Dictionary<DateTime, Game?>();
 
         foreach (KeyValuePair<string, string> data in MetaDataFromString(p))
         {
             played.Add(DateTime.ParseExact(data.Key, "MM/dd/yyyy HH:mm:ss.fff", CultureInfo.CurrentCulture), GetGame(Int32.Parse(data.Value)));
         }
-        
+
         return played;
     }
     
@@ -36,16 +36,12 @@ public class GeneralMethods
         string data = "";
 
         foreach (KeyValuePair<string, string> set in metaData)
-        {
             data += set.Key + "," + set.Value + ";";
-        }
 
-        data.TrimEnd(';');
+        data = data.TrimEnd(';');
 
         if (data.Length == 0)
-        {
             data = "NULL";
-        }
 
         return data;
     }
@@ -73,44 +69,37 @@ public class GeneralMethods
             }
         }
 
-
         return metaData;
     }
 
-    public static Game GetGame(int id)
+    public static Game? GetGame(int id)
     {
-        foreach (var g in DataUtil.Data.GetGames())
+        foreach (var g in DataUtil.Data.Games)
         {
             if (g.ID == id)
-            {
                 return g;
-            }
         }
 
         return null;
     }
 
-    public static User GetUser(int id)
+    public static User? GetUser(int id)
     {
-        foreach (var u in DataUtil.Data.GetUsers())
+        foreach (var u in DataUtil.Data.Users)
         {
             if (u.ID == id)
-            {
                 return u;
-            }
         }
 
         return null;
     }
 
-    public static User GetUser(string username)
+    public static User? GetUser(string username)
     {
-        foreach (var u in DataUtil.Data.GetUsers())
+        foreach (var u in DataUtil.Data.Users)
         {
             if (u.Username == username)
-            {
                 return u;
-            }
         }
 
         return null;
@@ -122,9 +111,9 @@ public class GeneralMethods
         Console.WriteLine(e.StackTrace);
     }
 
-    public static Dictionary<bool, string> isLoggedIn(ISession session)
+    public static Dictionary<bool, string?> isLoggedIn(ISession session)
     {
-        Dictionary<bool, string> status = new Dictionary<bool, string>();
+        Dictionary<bool, string?> status = new();
 
         string? loggedIn = session.GetString("loggedIn");
 
@@ -142,11 +131,11 @@ public class GeneralMethods
         return status;
     }
 
-    public static Dictionary<bool, User> ConfirmUser(string username, string password, ISession session)
+    public static Dictionary<bool, User?> ConfirmUser(string username, string password, ISession session)
     {
-        Dictionary<bool, User> status = new Dictionary<bool, User>();
+        Dictionary<bool, User?> status = new();
 
-        foreach (User user in DataUtil.Data.GetUsers())
+        foreach (User user in DataUtil.Data.Users)
         {
             if (user != null)
             {
@@ -180,14 +169,12 @@ public class GeneralMethods
         return status;
     }
 
-    public static User GetLoggedInUser(ISession session)
+    public static User? GetLoggedInUser(ISession session)
     {
         string? username = session.GetString("loggedInUser");
 
         if (username != null)
-        {
             return GetUser(username);
-        }
 
         return null;
     }

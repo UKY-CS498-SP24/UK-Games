@@ -1,11 +1,6 @@
-﻿using System.Data.SqlTypes;
-using System.Runtime.Intrinsics.Arm;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
+﻿using Microsoft.AspNetCore.Mvc;
 using UK_Games.Infrastructure;
 using UK_Games.Models;
-using System;
-using System.ComponentModel.DataAnnotations;
 
 
 namespace UK_Games.Controllers;
@@ -23,19 +18,10 @@ public class GameController : Controller
         return View();
     }
 
-    public class SearchData
-    {
-        public string pattern = "";
-    }
-
     [HttpPost]
     public IActionResult Search()
     {
-        String pattern = Convert.ToString(Request.Form["pattern"]);
-        // foreach(Game g in DataUtil.Data.Games)
-        //     if(g.Name == pattern)
-        //         return RedirectToAction("Index", new { id = g.ID });
-        // return RedirectToAction("Index", "Home");
+        string pattern = Convert.ToString(Request.Form["pattern"]);
         return RedirectToAction("Index", new { id = ClosestMatch(DataUtil.Data.Games, pattern).ID });
     }
 
