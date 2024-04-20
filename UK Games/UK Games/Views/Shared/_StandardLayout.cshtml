@@ -30,7 +30,7 @@
                     @{
                         if (Context.Session.GetString("loggedIn") == "true")
                         {
-                            User user = GeneralMethods.GetLoggedInUser(Context.Session);
+                            User? user = GeneralMethods.GetLoggedInUser(Context.Session);
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hi @user.Username!</a>
                                 <div class="dropdown-menu">
@@ -52,7 +52,7 @@
                     }
                 </ul>
                 
-                <form class="d-flex" method="post" action="Game/Search">
+                <form class="d-flex" method="post" asp-controller="Game" asp-action="Search">
                     <input class="form-control me-sm-2" type="text" id="pattern" name="pattern" placeholder="Search"/>
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     <asp:TextBox ID="box" type="text" runat="server"></asp:TextBox>

@@ -4,15 +4,15 @@ namespace UK_Games.Infrastructure;
 
 public class DatabaseAggregate
 {
-    private List<Game> games;
-    public List<Game> Games => games;
-    private List<User> users;
-    public List<User> Users => users;
+    public Dictionary<int,Game> games;
+    public Dictionary<int,Game>.ValueCollection Games => games.Values;
+    public Dictionary<int,User> users;
+    public Dictionary<int,User>.ValueCollection Users => users.Values;
 
     public DatabaseAggregate()
     {
-        games = new List<Game>();
-        users = new List<User>();
+        games = new Dictionary<int,Game>();
+        users = new Dictionary<int,User>();
     }
 
     public void WipeCache()
@@ -21,65 +21,33 @@ public class DatabaseAggregate
         users.Clear();
     }
 
-
     public void AddGame(Game game)
     {
-        foreach (var g in games)
-        {
-            if (g.ID == game.ID)
-                return;
-        }
-        games.Add(game);
+        games[game.ID] = game;
     }
 
     public void AddUser(User user)
     {
-        foreach (var u in users)
-        {
-            if (u.ID == user.ID)
-                return;
-        }
-        users.Add(user);
+        users[user.ID] = user;
     }
 
     public void RemoveGame(Game game)
     {
-        games.Remove(game);
+        RemoveGame(game.ID);
     }
 
     public void RemoveGame(int id)
     {
-        foreach (var g in games)
-        {
-            if (g.ID == id)
-            {
-                games.Remove(g);
-                return;
-            }
-        }
+        games.Remove(id);
     }
 
     public void RemoveUser(User user)
     {
-        foreach (var u in users)
-        {
-            if (u.ID == user.ID)
-            {
-                users.Remove(user);
-                return;
-            }
-        }
+        RemoveUser(user.ID);
     }
 
     public void RemoveUser(int id)
     {
-        foreach (var u in users)
-        {
-            if (u.ID == id)
-            {
-                users.Remove(u);
-                return;
-            }
-        }
+        users.Remove(id);
     }
 }

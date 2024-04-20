@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using UK_Games.Infrastructure;
 using UK_Games.Models;
 
@@ -14,7 +16,9 @@ public class GameController : Controller
      */
     public IActionResult Index(int id)
     {
-        ViewBag.Game = GeneralMethods.GetGame(id);
+        Game? selectedGame = GeneralMethods.GetGame(id);
+        ViewBag.Game = selectedGame;
+        GeneralMethods.GetLoggedInUser(HttpContext.Session)?.AddPlayed(selectedGame);
         return View();
     }
 
@@ -22,33 +26,26 @@ public class GameController : Controller
     public IActionResult Search()
     {
         string pattern = Convert.ToString(Request.Form["pattern"]);
-        return RedirectToAction("Index", new { id = ClosestMatch(DataUtil.Data.Games, pattern).ID });
+        Game? selectedGame = ClosestMatch(DataUtil.Data.Games.ToList(), pattern);
+        ViewBag.Game = selectedGame;
+        GeneralMethods.GetLoggedInUser(HttpContext.Session)?.AddPlayed(selectedGame);
+        return View("Index");
     }
 
-    private Game ClosestMatch(List<Game> games, string pattern)
+    private Game? ClosestMatch(List<Game> games, string pattern)
     {
-        int dist = editDistance(pattern, games[0].Name);
-        Game g  = games[0];
-        int tmp;
-        for(int i=1; i<games.Count; ++i)
-        {
-            tmp = editDistance(pattern, games[i].Name);
-            if (tmp < dist)
-            {
-                dist = tmp;
-                g = games[i];
-            }
-        }
-        return g;
+        int maxLen = games.Max(g => g.Name.Length);
+        return games.MinBy(g => editDistance(pattern, g.Name, maxLen));
     }
 
     private List<Game> closestMatches(List<Game> games, string pattern, int numMatches = 5)
     {
+        int maxLen = games.Max(g => g.Name.Length);
         if (numMatches<1) numMatches=1;
         List<Tuple<int,Game>> closest = new();
         foreach (Game g in games)
         {
-            int dist = editDistance(pattern, g.Name); 
+            int dist = editDistance(pattern, g.Name, maxLen); 
             if (closest.Count < numMatches || dist < closest.Last().Item1)
                 closest.Add(new Tuple<int, Game>(dist, g));
             closest.Sort();
@@ -61,20 +58,8 @@ public class GameController : Controller
         return r;        
     }
 
-    private int min(int a, int b)
+    private int editDistance(string s1, string s2, int padding = 40)
     {
-        return (a<b) ? a : b;
-    }
-
-    private int max(int a, int b)
-    {
-        return (a>b) ? a : b;
-    }
-
-    private int editDistance(string t1, string t2, int padding = 40)
-    {
-        string s1=t1.ToLower();
-        string s2=t2[..min(padding,t2.Length)].ToLower() + new string('*',max(padding-t2.Length,0));
         int n=s1.Length, m=s2.Length;
         int[,] dp = new int[n+1,m+1];
         for(int i=0; i<=n; ++i)
@@ -83,8 +68,8 @@ public class GameController : Controller
             dp[0,j] = j;
         for(int i=1;i<=n;++i)
             for(int j=1;j<=m;++j)
-                dp[i,j] = (s1[i-1] == s2[j-1]) ? dp[i-1,j-1] : min(dp[i-1,j]+1,min(dp[i,j-1]+1,dp[i-1,j-1]+1));
-        return dp[n,m];
+                dp[i,j] = (char.ToLower(s1[i-1]) == char.ToLower(s2[j-1])) ? dp[i-1,j-1] : Math.Min(dp[i-1,j]+1,Math.Min(dp[i,j-1]+1,dp[i-1,j-1]+1));
+        return dp[n,m] + Math.Max(padding-s2.Length,0);
     }
 
 }

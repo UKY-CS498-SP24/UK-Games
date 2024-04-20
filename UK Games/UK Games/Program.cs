@@ -45,7 +45,7 @@ try
 // 2. Create tables if they don't exist    
     DataUtil.CreateTables();
 }
-catch (Exception e)
+catch (Exception)
 {
     Console.WriteLine("Tables already created... moving on");
 }

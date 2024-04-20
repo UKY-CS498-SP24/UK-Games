@@ -26,7 +26,28 @@
             </div>
         </div>
         <div class="col-2">
-            sidebar thing
+            @{
+                if (Context.Session.GetString("loggedIn") == "true")
+                {
+                    <h3>Recently Played</h3>
+                    
+                    int NUM_TO_DISPLAY = 10;
+                    User? user = GeneralMethods.GetLoggedInUser(Context.Session);
+                    List<KeyValuePair<DateTime, Game?>> recent = user?.Played.ToList<KeyValuePair<DateTime, Game?>>() ?? new();
+                    recent.Reverse();
+
+                    for (int i=0; i<recent.Count && i<NUM_TO_DISPLAY; ++i)
+                    {
+                        if (recent[i].Value != null)
+                        {
+                            <p3>@recent[i].Key.ToShortDateString() : @recent[i].Value?.Name</p3>
+                            <br>
+                        }
+                    }
+                } else {
+                    <h3>Login to see recently played</h3>
+                }
+            }
         </div>
     </div>
 </div>

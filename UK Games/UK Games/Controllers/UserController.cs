@@ -131,7 +131,7 @@ public class UserController : Controller
 
             Console.WriteLine("[ LOGIN ATTEMPT ] Checking login information...");
             
-            Dictionary<bool, User> checkLoginInfo = GeneralMethods.ConfirmUser(username, password, HttpContext.Session);
+            Dictionary<bool, User?> checkLoginInfo = GeneralMethods.ConfirmUser(username, password, HttpContext.Session);
             
             Console.WriteLine("[ LOGIN ATTEMPT ] Received information...");
 

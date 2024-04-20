@@ -74,7 +74,7 @@ public class GeneralMethods
 
     public static Game? GetGame(int id)
     {
-        foreach (var g in DataUtil.Data.Games)
+        foreach (Game g in DataUtil.Data.Games)
         {
             if (g.ID == id)
                 return g;
@@ -85,7 +85,7 @@ public class GeneralMethods
 
     public static User? GetUser(int id)
     {
-        foreach (var u in DataUtil.Data.Users)
+        foreach (User u in DataUtil.Data.Users)
         {
             if (u.ID == id)
                 return u;
@@ -96,7 +96,7 @@ public class GeneralMethods
 
     public static User? GetUser(string username)
     {
-        foreach (var u in DataUtil.Data.Users)
+        foreach (User u in DataUtil.Data.Users)
         {
             if (u.Username == username)
                 return u;
