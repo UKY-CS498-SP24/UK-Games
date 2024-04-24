@@ -33,6 +33,11 @@ public class LoadDefaultData
         billiards.ImagePath = "~/img/games/2048billiards500300.webp";
         billiards.Save();
         
+        Game pandaJump = new Game("Panda Jump", "<link rel = \"stylesheet\" href = \"../../games/PandaJump/pandahop.css\"><script src=\"../../games/PandaJump/pandahop.js\"></script><canvas id = \"board\"></canvas><img src=\"../../games/PandaJump/start-back.jpg\" style=\"display: none;\" id=\"startBack\" alt=\"\">");
+        pandaJump.RefURL = "";
+        pandaJump.ImagePath = "~/games/PandaJump/start-back.jpg";
+        pandaJump.Save();
+        
         // Create some sample users:
         User jackson = new User(
             "jphu235",

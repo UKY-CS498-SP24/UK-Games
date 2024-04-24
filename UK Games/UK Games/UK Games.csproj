@@ -16,4 +16,21 @@
       <_ContentIncludedByDefault Remove="Views\Account\Logout.cshtml" />
     </ItemGroup>
     
+    <ItemGroup>
+      <Folder Include="Games" />
+      <Folder Include="wwwroot\games" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Include="wwwroot\games\JacksonLindsay\Build\proj.data.br" />
+      <None Include="wwwroot\games\JacksonLindsay\Build\proj.loader.js" />
+      <None Include="wwwroot\games\JacksonLindsay\index.html" />
+      <None Include="wwwroot\games\JacksonLindsay\TemplateData\favicon.ico" />
+      <None Include="wwwroot\games\JacksonLindsay\TemplateData\style.css" />
+      <None Include="wwwroot\games\PandaJump\index.html" />
+      <None Include="wwwroot\games\PandaJump\panda" />
+      <None Include="wwwroot\games\PandaJump\pandahop.css" />
+      <None Include="wwwroot\games\PandaJump\pandahop.js" />
+    </ItemGroup>
+    
 </Project>
