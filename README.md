@@ -6,6 +6,7 @@ https://bootswatch.com/vapor/
 ## Dessert Dropper
 ### Images
 All artwork by Cassie Stevens.
+
 Backgrounds made on Canva.
 
 #### Images From Adobe Stock
