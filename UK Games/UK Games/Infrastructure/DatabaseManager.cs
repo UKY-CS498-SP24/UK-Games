@@ -13,11 +13,11 @@ public class DatabaseManager
 
     public DatabaseManager()
     {
-        cnnBuilder.Server = "localhost";
+        cnnBuilder.Server = "127.0.0.1";
         cnnBuilder.Port = 3306;
         cnnBuilder.UserID = "root";
-        cnnBuilder.Password = "Sabumnim 2017";
-        cnnBuilder.Database = "UKGames";
+        cnnBuilder.Password = "mysql";
+        cnnBuilder.Database = "new_schema";
     }
 
     public void OpenConnection()
@@ -146,7 +146,7 @@ public class DatabaseManager
 
     public void SmartModify(int id, string tableName, string updateColumn, string updateValue)
     {
-        SmartModify(id, tableName, (updateColumn + " = " + updateValue));
+        SmartModify(id, tableName, updateColumn + " = " + updateValue);
     }
 
     public void SmartModify(int id, string tableName, List<string> columns, List<string> values)

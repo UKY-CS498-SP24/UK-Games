@@ -17,9 +17,9 @@ public class User
     private string email;
     private string password;
 
-    private Dictionary<DateTime, Game> played;
+    private Dictionary<DateTime, Game?> played;
 
-    public User(int id, string username, string firstName, string lastName, DateTime dob, string email, string password, Dictionary<DateTime, Game> played)
+    public User(int id, string username, string firstName, string lastName, DateTime dob, string email, string password, Dictionary<DateTime, Game?> played)
     {
         this.id = id;
         this.username = username;
@@ -41,23 +41,24 @@ public class User
         DOB = dob;
         this.email = email;
         this.password = password;
-        this.played = new Dictionary<DateTime, Game>();
+        this.played = new Dictionary<DateTime, Game?>();
 
         SaveNew();
     }
 
     public static void CreateTable()
     {
-        Dictionary<string, string> fields = new Dictionary<string, string>();
-
-        fields.Add("ID", "INT NOT NULL AUTO_INCREMENT");
-        fields.Add("Username", "TEXT");
-        fields.Add("FirstName", "TEXT");
-        fields.Add("LastName", "TEXT");
-        fields.Add("DateOfBirth", "TEXT");
-        fields.Add("Email", "TEXT");
-        fields.Add("Password", "TEXT");
-        fields.Add("PlayedGames", "TEXT");
+        Dictionary<string, string> fields = new Dictionary<string, string>
+        {
+            { "ID", "INT NOT NULL AUTO_INCREMENT" },
+            { "Username", "TEXT" },
+            { "FirstName", "TEXT" },
+            { "LastName", "TEXT" },
+            { "DateOfBirth", "TEXT" },
+            { "Email", "TEXT" },
+            { "Password", "TEXT" },
+            { "PlayedGames", "TEXT" }
+        };
 
         DataUtil.DB.SmartCreate(tableName, fields);
     }
@@ -79,17 +80,16 @@ public class User
 
     public Dictionary<string, string> DBValues()
     {
-        Dictionary<string, string> save = new Dictionary<string, string>();
-
-        save.Add("Username", username);
-        save.Add("FirstName", firstName);
-        save.Add("LastName", lastName);
-        save.Add("DateOfBirth", DOB.ToString());
-        save.Add("Email", email);
-        save.Add("Password", password);
-        save.Add("PlayedGames", GeneralMethods.ParsePlayed(played));
-
-        return save;
+        return new Dictionary<string, string>
+        {
+            { "Username", username },
+            { "FirstName", firstName },
+            { "LastName", lastName },
+            { "DateOfBirth", DOB.ToString() },
+            { "Email", email },
+            { "Password", password },
+            { "PlayedGames", GeneralMethods.ParsePlayed(played) }
+        };
     }
 
     public static string TableName => tableName;
@@ -98,7 +98,7 @@ public class User
 
     public string Username => username;
 
-    public Dictionary<DateTime, Game> Played => played;
+    public Dictionary<DateTime, Game?> Played => played;
 
     public string FirstName
     {
@@ -130,7 +130,7 @@ public class User
         set => password = value ?? throw new ArgumentNullException(nameof(value));
     }
 
-    public void AddPlayed(Game game)
+    public void AddPlayed(Game? game)
     {
         if (game != null)
         {
@@ -141,12 +141,6 @@ public class User
 
     public void AddPlayed(int id)
     {
-        Game game = GeneralMethods.GetGame(id);
-
-        if (game != null)
-        {
-            played.Add(DateTime.Now,game);
-            Thread.Sleep(2);
-        }
+        AddPlayed(GeneralMethods.GetGame(id));
     }
 }

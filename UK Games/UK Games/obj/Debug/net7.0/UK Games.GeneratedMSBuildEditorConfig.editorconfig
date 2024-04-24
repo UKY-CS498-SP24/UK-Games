@@ -9,45 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UK_Games
 build_property.RootNamespace = UK_Games
-build_property.ProjectDir = C:\Users\jhuse\Documents\!CS498\UK Games\UK Games\
+build_property.ProjectDir = C:\Users\ndunc\Desktop\UK-Games\UK Games\UK Games\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jhuse\Documents\!CS498\UK Games\UK Games
+build_property.MSBuildProjectDirectory = C:\Users\ndunc\Desktop\UK-Games\UK Games\UK Games
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Game/Index.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Home/Index.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Home/Privacy.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Shared/Error.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Shared/_Favicons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYXZpY29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/_ViewImports.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/User/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/User/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/_ViewStart.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jhuse/Documents/\!CS498/UK Games/UK Games/Views/Shared/_StandardLayout.cshtml]
+[C:/Users/ndunc/Desktop/UK-Games/UK Games/UK Games/Views/Shared/_StandardLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGFuZGFyZExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-laqqgdfgji

@@ -23,11 +23,13 @@ public class DataUtil
     public static void CreateTables()
     {
         //  0. IDsTable
-        Dictionary<string, string> lastUsedIDs = new Dictionary<string, string>();
-        lastUsedIDs.Add("ID", "INT NOT NULL AUTO_INCREMENT");
-        lastUsedIDs.Add("TableName", "VARCHAR(255)");
-        lastUsedIDs.Add("LastID", "TEXT");
-        lastUsedIDs.Add("CONSTRAINT Unique_Table", "UNIQUE (TableName)");
+        Dictionary<string, string> lastUsedIDs = new Dictionary<string, string>
+        {
+            { "ID", "INT NOT NULL AUTO_INCREMENT" },
+            { "TableName", "VARCHAR(255)" },
+            { "LastID", "TEXT" },
+            { "CONSTRAINT Unique_Table", "UNIQUE (TableName)" }
+        };
         DB.SmartCreate(IDsTable, lastUsedIDs);
         
         //  1. Game - Base Data Types
@@ -45,6 +47,9 @@ public class DataUtil
         
         MySqlDataReader reader;
 
+        if (!db.connected)
+            throw new Exception("Database not connected");
+            
         //  1. Game - Base Data Types
        reader = db.GetAll(Game.TableName, "*");
        while (reader.Read())
@@ -64,12 +69,10 @@ public class DataUtil
         reader = db.GetAll(User.TableName, "*");
         while (reader.Read())
         {
-            Dictionary<DateTime, Game> played = new Dictionary<DateTime, Game>();
+            Dictionary<DateTime, Game?> played = new Dictionary<DateTime, Game?>();
             
             if (reader.GetValue(7) != DBNull.Value)
-            {
                 played = GeneralMethods.ParsePlayed(reader.GetString(7));
-            }
             
             data.AddUser(
                 new User(

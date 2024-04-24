@@ -45,7 +45,7 @@ try
 // 2. Create tables if they don't exist    
     DataUtil.CreateTables();
 }
-catch (Exception e)
+catch (Exception)
 {
     Console.WriteLine("Tables already created... moving on");
 }
@@ -54,7 +54,7 @@ catch (Exception e)
 DataUtil.PullDataFromDB();
 
 // 4. Load Default Data (if no users)
-if (DataUtil.Data.GetUsers().Count == 0)
+if (DataUtil.Data.Users.Count == 0)
 {
     new LoadDefaultData();
 }
