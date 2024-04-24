@@ -22,6 +22,8 @@ https://uppbeat.io/t/color-parade/pixel-playground
 
 https://uppbeat.io/t/michael-grubb/floating-cat
 
+https://uppbeat.io/t/sky-toes/sandbox-serenade
+
 ### Cookie Monster Font
 License: Freeware, commercial use requires donation
 
